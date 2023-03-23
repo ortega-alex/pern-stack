@@ -1,50 +1,50 @@
 # COMANDOS PARA ESLINT 
-<p>Instalacion de eslint como dependencia de desarrollo</p>
-```bash
+Instalacion de eslint como dependencia de desarrollo
+```properties
     npm i -D eslint 
 ```
-<p>Inicialisar eslint</p>
-```bash
+Inicialisar eslint
+```properties
     npx eslint --init
 ```
-<p>Linter de eslint</p>
-```bash 
+Linter de eslint
+```properties 
     npx ellint --fix .
 ```
 
 # COMANDOS PARA PRETTY
-<p>intalar prettier como dependencia de desarrollo</p>
-```bash
+intalar prettier como dependencia de desarrollo
+```properties
     npm i -D prettier
 ```
 
-<p>Linter de prettier</p>
-```bash
+Linter de prettier
+```properties
     npx prettier --write "**/*.{js,jsx,ts,tsx}"
 ```
 
 # COMANDOS PARA VITE
-<p>Inicializar un proyecto react con vite</p>
-```bash 
+Inicializar un proyecto react con vite
+```properties 
     npm init vite@latest
 ```
 
 # DOCKER
-<p>Inicialisar un contenedor con postgres</p>
+Inicialisar un contenedor con postgres
 ```bash 
     docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=abc123** -d postgres
 ```
 
 # postges por terminal
-<p>Establecer conexion </p>
+Establecer conexion
 ```bash 
     psql -U postsgres 
 ```
-<p>listar las bases de datos</p>
+listar las bases de datos
 ```bash 
     \l
 ```
-<p>estableser una db </p>
+estableser una db
 ```bash 
     \c
 ```
